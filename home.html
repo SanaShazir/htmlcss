@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS GRID </title>
+    <style type="text/css">
+      .grid1{display: grid;
+        grid: auto auto auto/ auto auto auto auto auto;
+        background-color:purple;
+        border: 3px solid purple;
+        gap:15px;
+             }
+       .grid1> div{background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            } 
+        .item1{color:black;}  
+        /*img{
+            border:1px solid black;
+            padding:5px;
+            width: 150px;
+        }*/
+        .grid2{display: grid;
+        grid: auto auto auto/ auto auto auto auto auto;
+        background-color: purple;
+        border: 3px solid purple;
+        gap:15px;
+             }
+       .grid2> div{background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            } 
+        .item1{color:black;}  
+        /*img{
+            border:1px solid black;
+            padding:5px;
+            width: 150px;
+            height: 300px;
+        }*/
+       .item6{
+           grid-row:2/span 2;
+           grid-column:1/span 2;
+          background-image:url(taco.jpg) ;
+          
+          
+
+       }
+       .item6>h2{
+           color:rgb(243, 164, 18);
+       }
+       .item7{
+           grid-column:3/span 4;
+           background-color: rgb(243, 164, 18);
+       }
+      .item8{
+          grid-column:3/span 4;
+      }
+      .item14{
+          grid-column:1/span 5;
+          
+      }
+      .item15{
+          grid-column:1/span 5;
+      }
+      .item4{
+          grid-column: 4/span 2;
+      }
+      .item12{
+          grid-column:4/span 2;
+      }
+      .item6>img{
+        width: 500px;
+            height: 400px;
+      }
+      .item15>img{
+        width: 200px;
+            height: 200px;
+      }
+      .item6>h6{
+           color:rgb(243, 164, 18);
+       }
+      
+
+    </style>    
+</head>
+<body>
+  <div class="grid1">
+    <div class="item1"> Taco</div>
+    <div class="item2"> Beer</div>
+    <div class="item3"> Dessert</div>
+    <div class="item4"> Reservations</div>
+    
+    <div class="item6"> 
+        <!--<img src="taco.jpg">-->
+        <h2>Terry's Taco Joint</h2>
+        <h6>pretty good tacos</h6>
+    </div>
+    <div class="item7"> 
+        <h1>$1.99</h1>
+        <h5>Tacos</h5>
+    </div>
+    <div class="item8"> 
+        <h1>$3.99</h1>
+        <h5>Dessert</h5>
+    </div>
+    <div class="item9"> 
+        <img src=taco-emoji.png>
+        <h2>Taco</h2>
+        <h6>Enjoy the crispy delicious tacos</h6>
+
+    </div>
+    <div class="item10"> 
+        <img src="beer-emoji.png">
+        <h2>Beer</h2>
+        <h6>Enjoy the beer with tacos</h6>
+    </div>
+    <div class="item11"> 
+        <img src="wine-emoji.png">
+        <h2>Wine</h2>
+        <h6>Enjoy the wine with tacos</h6>
+    </div>
+    <div class="item12">
+        <img src="music-emoji.png">
+        <h2>Music</h2>
+        <h6>Enjoy the music </h6>
+    </div>
+   
+    <div class="item14"> 
+        <img src="queso-taco.png">
+        <h2>Featured Taco</h2>
+        <p>Slim Profile,easy to handle and loaded with cheese.</br>
+            This is the one youhave been waiting for. </p>
+            <input type="submit" value="Learn More" >
+    </div>
+    <div class="item15"><h4>Instant Grams</h4>
+        <img src="1.jpg">
+        <img src="2.jpg">
+        <img src="3.jpg">
+        <img src="4.jpg">
+        <img src="5.jpg">
+        <img src="6.jpg">
+        <img src="7.jpg">
+        <img src="8.jpg">
+        <img src="9.jpg">
+        <img src="10.jpg">
+    </div>
+  </div>
+ 
+</html>
